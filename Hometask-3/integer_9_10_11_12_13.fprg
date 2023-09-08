@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 02:57:28 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDI6NDg6MTMgQU07MjU0OA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDI6NTc6MjggQU07OTsyNjcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e" type="Integer" array="False" size=""/>
+            <output expression="&quot;Uch xonali sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a/100"/>
+            <assign variable="c" expression="a%100/10"/>
+            <assign variable="d" expression="a%100%10"/>
+            <assign variable="e" expression="b+c+d"/>
+            <output expression="&quot;Birlik xonasidagi son=&quot;&amp;d" newline="True"/>
+            <output expression="&quot;O'nliklar xonasidagi son=&quot;&amp;c" newline="True"/>
+            <output expression="&quot;Yuzlar xonasidagi son=&quot;&amp;b" newline="True"/>
+            <output expression="&quot;Raqamlar yigindisi=&quot;&amp;e" newline="True"/>
+            <output expression="&quot;Raqamlari teskari tartibda yozilgan: &quot;&amp;d&amp;c&amp;b" newline="True"/>
+            <output expression="&quot;Chapdan birinchi raqamni o'chirib, o'ng tarafga yozishdan hosil bo'lgan son: &quot;&amp;c&amp;d&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

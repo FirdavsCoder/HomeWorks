@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 02:16:10 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MTI6MDkgQU07MjU0NA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MTY6MTAgQU07NDsyNjUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, c" type="Integer" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <output expression="&quot;bir kg konfet narxini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <for variable="b" start="0.1" end="1.0" direction="inc" step="0.1">
+                <output expression="b&amp;&quot; kg konfet narxi: &quot;&amp;b*a&amp;&quot; so'm&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

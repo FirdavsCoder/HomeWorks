@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 04:51:23 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDQ6NDg6NTMgQU07MjU1NA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDQ6NTE6MjMgQU07MTsyNjUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a^2*b^3+(a+b*a^2-b)"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

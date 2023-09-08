@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 02:31:28 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDE6NTk6MjYgQU07MjU1Mw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDI6MzE6MjggQU07NDsyNjU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, e" type="Integer" array="False" size=""/>
+            <output expression="&quot;A kesma uzunligini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B kesmaning uzunligini kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <while expression="a&lt;b">
+                <output expression="&quot;A kesma uzunligini B kesma uzunligidan katta bo'lishi shart.&quot;" newline="True"/>
+                <input variable="a"/>
+            </while>
+            <assign variable="e" expression="a/b"/>
+            <output expression="&quot;A kesmaning ichida B kesmani &quot;&amp;e&amp;&quot; marta joylashtirish mumkin. Va joylashmagan qismi: &quot;&amp;a%b&amp;&quot; cm ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

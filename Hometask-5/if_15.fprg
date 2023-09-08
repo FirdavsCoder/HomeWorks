@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 02:59:40 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDI6MzM6MTEgQU07MjUzNg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDI6NTk6NDAgQU07MzsyNjU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, yigindi1, yigindi2, yigindi3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Ikkinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Uchinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="yigindi1" expression="a+b"/>
+            <assign variable="yigindi2" expression="b+c"/>
+            <assign variable="yigindi3" expression="a+c"/>
+            <comment text="Eng katta sonni aniqlab olish"/>
+            <if expression="yigindi1&gt;yigindi2 and yigindi1&gt;yigindi3">
+                <then>
+                    <output expression="&quot;Eng katta yigindi: &quot;&amp;yigindi1&amp;&quot; A=&quot;&amp;a&amp;&quot; B=&quot;&amp;b" newline="False"/>
+                </then>
+                <else>
+                    <if expression="yigindi2&gt;yigindi1 and yigindi2&gt;yigindi3">
+                        <then>
+                            <output expression="&quot;Eng katta yigindi: &quot;&amp;yigindi2&amp;&quot; B=&quot;&amp;b&amp;&quot; C=&quot;&amp;c" newline="False"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Eng katta yigindi: &quot;&amp;yigindi3&amp;&quot; A=&quot;&amp;a&amp;&quot; C=&quot;&amp;c" newline="False"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

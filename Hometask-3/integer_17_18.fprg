@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 01:08:38 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MTI6NDY6MDggQU07MjU1MQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDE6MDg6MzggQU07MjsyNjU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="b" expression="a%1000/100"/>
+            <assign variable="d" expression="a/1000"/>
+            <output expression="&quot;Yuzliklar xonasidagi son: &quot;&amp;b" newline="True"/>
+            <output expression="&quot;Mingliklar xonasidagi son: &quot;&amp;d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

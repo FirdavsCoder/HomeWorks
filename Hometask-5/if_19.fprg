@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 04:05:57 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDM6NDY6MTIgQU07MjU0Mg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDQ6MDQ6MDEgQU07MjtmaXJkYXZzO0ZJUkRBVlM7MjAyMy0wOC0zMTswMzowODoyMSBBTTs1MjQz"/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDQ6MDU6NTcgQU07MzsyNjU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Ikkinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Uchinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;To'rtinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="d"/>
+            <if expression="a==b and b==c and c!=d">
+                <then>
+                    <assign variable="x" expression="4"/>
+                </then>
+                <else>
+                    <if expression="a==b and b==d and c!=d">
+                        <then>
+                            <assign variable="x" expression="3"/>
+                        </then>
+                        <else>
+                            <if expression="a == c and c == d and a != b">
+                                <then>
+                                    <assign variable="x" expression="2"/>
+                                </then>
+                                <else>
+                                    <if expression="b == c and c == d and a != b">
+                                        <then>
+                                            <assign variable="x" expression="1"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="x" expression="0"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="x!=0">
+                <then>
+                    <output expression="&quot;4 ta sonning uchtasi o'zaro teng, tartib raqami: &quot; &amp; x" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;4 ta sonning uchtasi o'zaro teng emas.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

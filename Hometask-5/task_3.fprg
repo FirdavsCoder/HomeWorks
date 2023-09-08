@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 04:13:58 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDQ6MTE6MjMgQU07MjUzNw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDQ6MTM6NTggQU07MTsyNjU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ikki xonali sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a&lt;100 and a&gt;-100">
+                <then>
+                    <output expression="&quot;To'g'ri: &quot;&amp;a" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Siz kiritgan son ikki xonali emas.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

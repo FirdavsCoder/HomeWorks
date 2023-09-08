@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-03 03:34:10 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDM6MjU6NDcgQU07MjU0Nw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDM6MzA6MDQgQU07MTtmaXJkYXZzO0ZJUkRBVlM7MjAyMy0wOS0wMzswMjo0OTo0OCBBTTt3aGlsZV80LmZwcmc7NjQ3Ng=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDM6MzQ6MTAgQU07MzsyNjQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonini kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="0&gt;n">
+                <then>
+                    <output expression="&quot;n soni 0 dan katta bo'lishi kerak!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <declare name="status" type="Boolean" array="False" size=""/>
+                    <assign variable="status" expression="True"/>
+                    <assign variable="b" expression="1"/>
+                    <assign variable="a" expression="2"/>
+                    <while expression="status">
+                        <if expression="n&gt;=a">
+                            <then>
+                                <if expression="n==a">
+                                    <then>
+                                        <output expression="&quot;2 ning &quot;&amp;b&amp;&quot;-darajasi&quot;" newline="True"/>
+                                        <assign variable="status" expression="False"/>
+                                    </then>
+                                    <else>
+                                        <assign variable="a" expression="a*2"/>
+                                        <assign variable="b" expression="b+1"/>
+                                    </else>
+                                </if>
+                            </then>
+                            <else>
+                                <output expression="&quot;2 ning hech qaysi darajasiga mos emas&quot;" newline="True"/>
+                                <assign variable="status" expression="False"/>
+                            </else>
+                        </if>
+                    </while>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

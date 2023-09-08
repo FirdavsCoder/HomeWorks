@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-03 03:24:22 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDI6NDk6NDggQU07MjU1Mw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDM6MjQ6MjIgQU07MTsyNjQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonini kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="0&gt;n">
+                <then>
+                    <output expression="&quot;n soni musbat bo'lishi kerak&quot;" newline="True"/>
+                </then>
+                <else>
+                    <declare name="checkStatus" type="Boolean" array="False" size=""/>
+                    <assign variable="checkStatus" expression="True"/>
+                    <assign variable="a" expression="3"/>
+                    <while expression="checkStatus">
+                        <if expression="n&gt;=a">
+                            <then>
+                                <if expression="n==a">
+                                    <then>
+                                        <output expression="&quot;3 ning darajasi&quot;" newline="True"/>
+                                        <assign variable="checkStatus" expression="False"/>
+                                    </then>
+                                    <else>
+                                        <assign variable="a" expression="a*3"/>
+                                    </else>
+                                </if>
+                            </then>
+                            <else>
+                                <output expression="&quot;3 ning darajasi emas&quot;" newline="True"/>
+                                <assign variable="checkStatus" expression="False"/>
+                            </else>
+                        </if>
+                    </while>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

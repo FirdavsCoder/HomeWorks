@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 01:23:03 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MDE6MDQ6MjkgQU07MjU0OA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MDE6MjM6MDMgQU07MzsyNjUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="meva" type="String" array="False" size=""/>
+            <output expression="&quot;Qaysi mevani sotib olmoqchisiz?&quot;" newline="True"/>
+            <input variable="meva"/>
+            <if expression="meva==&quot;olma&quot;|| meva==&quot;gilos&quot; || meva==&quot;orik&quot; || meva==&quot;shaftoli&quot;">
+                <then>
+                    <output expression="&quot;Siz so'ragan meva bizning do'konimizda bor va siz uni sotib olishingiz mumkin.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Siz so'ragan meva bizni do'konimizda yo'q.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

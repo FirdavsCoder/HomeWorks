@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 03:35:44 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDM6MzI6NTMgUE07MjU1OA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDM6MzU6NDQgUE07MTsyNjY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="10"/>
+            <assign variable="b" expression="5"/>
+            <output expression="&quot;To'g'ri to'rtburchakning yuzasi: S=&quot;&amp;a*b&amp;&quot; Perimetri: P=&quot;&amp;2*(a+b)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

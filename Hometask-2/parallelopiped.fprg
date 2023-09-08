@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 04:03:56 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDM6NTk6MTIgUE07MjU2Mg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDQ6MDM6NTYgUE07MTsyNjY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, V, S" type="Integer" array="False" size=""/>
+            <output expression="&quot;Perallellopipedning a tomonini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Perallellopipedning b tomonini kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Perallellopipedning c  tomonini kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="V" expression="a*b*c"/>
+            <assign variable="S" expression="2*(a*b+b*c+a*c)"/>
+            <output expression="&quot;Perallellopipedning hajmi:  &quot;&amp;V&amp;&quot; ga teng. Uning to'la sirti: &quot;&amp;S&amp;&quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

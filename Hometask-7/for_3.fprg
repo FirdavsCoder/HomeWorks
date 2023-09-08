@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 02:11:12 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MDQ6NDIgQU07MjU0Mg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MTE6MTIgQU07MjsyNjQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, x, y, z, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonini kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="z" expression="0"/>
+            <for variable="i" start="b" end="a" direction="dec" step="1">
+                <if expression="i%2==0">
+                    <then>
+                        <assign variable="z" expression="z+1"/>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Jami juft sonlar: &quot;&amp;z&amp;&quot; ga teng&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

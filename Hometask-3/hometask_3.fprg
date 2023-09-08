@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 03:10:25 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDM6MDU6NDAgQU07MjU0Mg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDM6MTA6MjUgQU07NDsyNjUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Uch xonali sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="ToInteger(Char(ToString(a), 0))"/>
+            <output expression="&quot;Birinchi son=&quot;&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

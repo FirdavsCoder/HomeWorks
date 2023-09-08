@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 02:39:30 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDU7MDc6MDM6MDcgUE07MjU2MA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDY7MDI6Mzk6MzAgQU07MTc7MjcwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, x, a, juftSon, toqSon, subJami" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="subJami" expression="0"/>
+            <assign variable="juftSon" expression="0"/>
+            <assign variable="toqSon" expression="0"/>
+            <if expression="n&gt;0">
+                <then>
+                    <output expression="&quot;1 dan n gacha bo'lgan sonlarni chiqaramiz FOR bilan: &quot;" newline="True"/>
+                    <for variable="a" start="1" end="n" direction="inc" step="1">
+                        <output expression="a" newline="True"/>
+                        <if expression="a%2 == 0">
+                            <then>
+                                <assign variable="juftSon" expression="juftSon+a"/>
+                            </then>
+                            <else>
+                                <assign variable="toqSon" expression="toqSon + a"/>
+                            </else>
+                        </if>
+                        <assign variable="subjami" expression="subjami+a"/>
+                    </for>
+                    <output expression="&quot;1 dan n gacha bo'lgan sonlarni chiqaramiz WHILE bilan: &quot;" newline="True"/>
+                    <assign variable="x" expression="0"/>
+                    <while expression="x&lt;n">
+                        <assign variable="x" expression="x+1"/>
+                        <output expression="x" newline="True"/>
+                    </while>
+                    <output expression="&quot;1 dan n gacha bo'lgan sonlarni chiqaramiz DO bilan: &quot;" newline="True"/>
+                    <assign variable="x" expression="0"/>
+                    <do expression="x&lt;n">
+                        <assign variable="x" expression="x+1"/>
+                        <output expression="x" newline="True"/>
+                    </do>
+                    <output expression="&quot;Hamma sonlar yig'indisi: &quot;&amp;subJami" newline="True"/>
+                    <output expression="&quot;Juft sonlar yig'indisi: &quot;&amp;juftSon" newline="True"/>
+                    <output expression="&quot;Toq sonlar yig'indisi: &quot;&amp;toqSon" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

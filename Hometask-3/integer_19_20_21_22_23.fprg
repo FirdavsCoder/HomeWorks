@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 02:42:14 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDE6MDk6MjIgQU07MjU0NA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDI6NDI6MTQgQU07MjQ7MjcwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e, f" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kun boshidan hozirgacha o'tgan sekundni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a/60"/>
+            <assign variable="d" expression="a%3600/60"/>
+            <assign variable="c" expression="b/60"/>
+            <assign variable="e" expression="a/3600"/>
+            <output expression="&quot;Kun boshidan hozirgacha &quot;&amp;b&amp;&quot; minut o'tdi!&quot;" newline="True"/>
+            <output expression="&quot;Kun boshidan hozirgacha &quot;&amp;c&amp;&quot; soat vaqt o'tdi!&quot;" newline="True"/>
+            <output expression="&quot;Kun boshidan hozirgacha &quot;&amp;b&amp;&quot; minut va &quot;&amp; a%3600&amp;&quot; sekund o'tdi!&quot;" newline="True"/>
+            <output expression="&quot;Kun boshidan hozirgacha: &quot;&amp;e&amp;&quot; soat va &quot;&amp;a%3600&amp;&quot; sekund o'tdi!&quot;" newline="True"/>
+            <output expression="&quot;Kun boshidan hozirgacha: &quot;&amp;c&amp;&quot; soat &quot;&amp;d&amp;&quot; minut &quot;&amp;a%60&amp;&quot; o'tdi.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

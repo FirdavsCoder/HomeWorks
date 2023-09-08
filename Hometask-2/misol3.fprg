@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 01:12:34 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjQ7MDE6MDI6NTAgQU07MjUzNg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjQ7MDE6MTI6MzQgQU07MzsyNjQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="(a+b*a+(b-a)*a)/b"/>
+            <output expression="&quot;(a+b*a+(b-a)*a)/b=c ushbu ifodani yechish uchun:&quot;" newline="True"/>
+            <output expression="&quot;1.  Birinchi ish: (b-a)= &quot;&amp;b-a" newline="True"/>
+            <output expression="&quot;2.  Ikkinchi ish: (b-a)*a=&quot;&amp;(b-a)*a" newline="True"/>
+            <output expression="&quot;3.  Uchinchi ish: b*a=&quot;&amp;b*a" newline="True"/>
+            <output expression="&quot;4.  To'rtinchi ish: a+b*a=&quot;&amp;a+b*a" newline="True"/>
+            <output expression="&quot;5.  Beshinchi ish: (a+b*a+(b-a)*a)=&quot;&amp;a+b*a+(b-a)*a" newline="True"/>
+            <output expression="&quot;6.  Oltinchi ish: (a+b*a+(b-a)*a)/b=&quot;&amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

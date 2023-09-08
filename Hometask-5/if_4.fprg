@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 01:00:44 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MTI6MzA6MTUgQU07MjUzOA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDE6MDA6NDQgQU07MjsyNjQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numbers" type="Integer" array="True" size="3"/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="numbers[0]"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="numbers[1]"/>
+            <output expression="&quot;c sonni kiriting: &quot;" newline="True"/>
+            <input variable="numbers[2]"/>
+            <output expression="&quot;Natija: &quot;&amp;musbatSonlar(numbers[0], numbers[1], numbers[2])" newline="True"/>
+        </body>
+    </function>
+    <function name="musbatSonlar" type="Integer" variable="sonlar">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+            <parameter name="c" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonlar" type="Integer" array="False" size=""/>
+            <if expression="a&gt;0">
+                <then>
+                    <assign variable="sonlar" expression="0+1"/>
+                </then>
+                <else>
+                    <assign variable="sonlar" expression="0"/>
+                </else>
+            </if>
+            <if expression="b&gt;0">
+                <then>
+                    <assign variable="sonlar" expression="sonlar+1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c&gt;0">
+                <then>
+                    <assign variable="sonlar" expression="sonlar+1"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

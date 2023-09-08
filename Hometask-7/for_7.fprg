@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 02:21:47 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MTg6NTkgQU07MjU1NQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MjE6NDcgQU07MjsyNjU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, i, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="x" expression="0"/>
+            <for variable="i" start="a" end="b" direction="inc" step="1">
+                <if expression="i%2 == 0">
+                    <then>
+                        <assign variable="x" expression="x+i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Natija: &quot;&amp;x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

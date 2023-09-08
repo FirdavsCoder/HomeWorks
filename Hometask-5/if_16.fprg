@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 05:14:12 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDM6MDg6MjEgQU07MjU0MA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDU7MDU6MTQ6MTIgUE07MjsyNjY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Ikkinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Uchinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a&lt;b and b&lt;c">
+                <then>
+                    <assign variable="a" expression="a*2"/>
+                    <assign variable="b" expression="b*2"/>
+                    <assign variable="c" expression="c*2"/>
+                </then>
+                <else>
+                    <assign variable="a" expression="-1 *a"/>
+                    <assign variable="b" expression="-1*b"/>
+                    <assign variable="c" expression="-1*c"/>
+                </else>
+            </if>
+            <output expression="&quot;Natija: A=&quot; &amp; A &amp; &quot;, B=&quot; &amp; B &amp; &quot;, C=&quot; &amp; C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

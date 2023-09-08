@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 01:15:13 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDE6MDk6MzIgQU07MjU0MQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDE6MTU6MTMgQU07MjsyNjQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;Siz kiritgan birinchi son ikkinchi sondan katta. Natija: &quot;&amp;a&amp;&quot;&gt;&quot;&amp;b" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Siz kiritgan ikkinchi son birinchi sondan katta!. Natija: &quot;&amp;b&amp;&quot;&gt;&quot;&amp;a" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

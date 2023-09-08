@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 02:26:44 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDI6MTU6NTUgQU07MjU0OA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDI6MjY6NDQgQU07NjsyNjYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ikki xonali sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a/10"/>
+            <assign variable="c" expression="a%10"/>
+            <output expression="&quot;Siz kiritgan soning o'nlik lar xonasidagi son &quot;&amp;b&amp;&quot; ga teng. Birliklar xonasidagi son esa &quot;&amp;c&amp;&quot; ga teng.&quot;" newline="True"/>
+            <output expression="&quot;Siz kiritgan soning raqamlari yigindisi: &quot;&amp;b+c&amp;&quot; ga teng.&quot;" newline="True"/>
+            <output expression="&quot;Siz kiritgan soning raqamlari o'rnini quyidagi son kelib chiqadi: &quot;&amp;c&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 01:26:36 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDE6MTk6MjkgQU07MjU0OA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDE6MjY6MzYgQU07MTsyNjUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Real" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;A-&quot;&amp;a&amp;&quot; B-&quot;&amp;a+b" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A-&quot;&amp;a-b&amp;&quot; B-&quot;&amp;b" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

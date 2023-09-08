@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 03:54:22 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDM6NDY6MTIgQU07MjU0Mg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDM6NTQ6MjIgQU07MTsyNjUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Ikkinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Uchinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a==b and b!=c">
+                <then>
+                    <assign variable="x" expression="3"/>
+                </then>
+                <else>
+                    <if expression="a!=b and b==c">
+                        <then>
+                            <assign variable="x" expression="1"/>
+                        </then>
+                        <else>
+                            <if expression="a==b and b==c">
+                                <then>
+                                    <assign variable="x" expression="2"/>
+                                </then>
+                                <else>
+                                    <assign variable="x" expression="0"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="x!=0">
+                <then>
+                    <output expression="&quot;Uchta sonning ikkisi o'zaro teng, tartib raqami: &quot; &amp; x" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Uchta sonning ikkisi o'zaro teng emas.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

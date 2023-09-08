@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 02:57:57 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDU7MDg6MDk6MjcgUE07MjU2OQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDY7MDI6NTc6NTcgQU07MzsyNjY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, x" type="Integer" array="False" size=""/>
+            <declare name="tub" type="Boolean" array="False" size=""/>
+            <assign variable="tub" expression="true"/>
+            <output expression="&quot;n sonni kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="2&gt;n">
+                <then>
+                    <output expression="&quot;2 va undan katta son kiritishingiz mumkin!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <for variable="x" start="n-1" end="2" direction="dec" step="1">
+                        <if expression="n%x == 0">
+                            <then>
+                                <assign variable="tub" expression="False"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <if expression="tub == True">
+                        <then>
+                            <output expression="&quot;Tub son&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Tub son emas&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

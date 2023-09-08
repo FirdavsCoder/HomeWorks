@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 12:28:02 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MTI6MTk6MjMgQU07MjU0NA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MTI6Mjg6MDIgQU07NTsyNjUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a&gt;=0">
+                <then>
+                    <if expression="a==0">
+                        <then>
+                            <assign variable="a" expression="10"/>
+                            <output expression="&quot;Natija: &quot;&amp;a" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Natija: &quot;&amp;a+1" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Natija: &quot;&amp;a-2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

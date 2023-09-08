@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 02:43:32 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDI6MzM6MTEgQU07MjUzNg=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDI6NDM6MzIgQU07MTsyNjQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, engkichik, engkatta, orta" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Ikkinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Uchinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <comment text="Eng katta sonni aniqlab olish"/>
+            <if expression="a&gt;b and a&gt;c">
+                <then>
+                    <assign variable="engkatta" expression="a"/>
+                </then>
+                <else>
+                    <if expression="b&gt;a and b&gt;c">
+                        <then>
+                            <assign variable="engkatta" expression="b"/>
+                        </then>
+                        <else>
+                            <assign variable="engkatta" expression="c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <comment text="Eng kichik sonni aniqlab olamiz&#13;&#10;"/>
+            <if expression="a&lt;b and a&lt;c">
+                <then>
+                    <assign variable="engkichik" expression="a"/>
+                </then>
+                <else>
+                    <if expression="b&lt;a and b&lt;c">
+                        <then>
+                            <assign variable="engkichik" expression="b"/>
+                        </then>
+                        <else>
+                            <assign variable="engkichik" expression="c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <comment text="O'rta qiymatdagi sonni aniqlab olamiz"/>
+            <if expression="a!=engkatta and a!=engkichik">
+                <then>
+                    <assign variable="orta" expression="a"/>
+                </then>
+                <else>
+                    <if expression="b!=engkichik and b!=engkatta">
+                        <then>
+                            <assign variable="orta" expression="b"/>
+                        </then>
+                        <else>
+                            <assign variable="orta" expression="c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <comment text="Natijalarni tekshirib olamiz"/>
+            <output expression="&quot;Eng katta son=&quot;&amp;engkatta&amp;&#13;&#10;&quot; Eng kichik son=&quot;&amp;engkichik&amp;&#13;&#10;&quot; O'rta son=&quot;&amp;orta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

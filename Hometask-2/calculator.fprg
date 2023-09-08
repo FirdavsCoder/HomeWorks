@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 08:12:24 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjQ7MDE6MTg6MzMgQU07MjU0NA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDg6MTI6MjQgUE07ODsyNjc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="answer" type="String" array="False" size=""/>
+            <declare name="answerCheck" type="Boolean" array="False" size=""/>
+            <assign variable="answerCheck" expression="True"/>
+            <declare name="a, b, natija, x" type="Integer" array="False" size=""/>
+            <while expression="answerCheck == True">
+                <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+                <input variable="a"/>
+                <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+                <input variable="b"/>
+                <declare name="amal" type="String" array="False" size=""/>
+                <output expression="&quot;amalni kiriting: (*, /, +, -)&quot;" newline="True"/>
+                <input variable="amal"/>
+                <output expression="&quot;Natijani kiriting: &quot;" newline="True"/>
+                <input variable="natija"/>
+                <if expression="amal=&quot;*&quot;">
+                    <then>
+                        <assign variable="x" expression="a*b"/>
+                        <if expression="natija==x">
+                            <then>
+                                <output expression="&quot;Siz kiritgan javob tog'ri: &quot;&amp;a*b" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Siz kiritgan javob xato. To'g'ri javob:  &quot;&amp;a*b" newline="True"/>
+                            </else>
+                        </if>
+                        <output expression="&quot;Natija: &quot;&amp;a*b" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="amal=&quot;/&quot;">
+                            <then>
+                                <assign variable="x" expression="a/b"/>
+                                <if expression="natija==x">
+                                    <then>
+                                        <output expression="&quot;Siz kiritgan javob tog'ri: &quot;&amp;a/b" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <output expression="&quot;Siz kiritgan javob xato. To'g'ri javob:  &quot;&amp;a/b" newline="True"/>
+                                    </else>
+                                </if>
+                                <output expression="&quot;Natija: &quot;&amp;a/b" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="amal=&quot;+&quot;">
+                                    <then>
+                                        <assign variable="x" expression="a+b"/>
+                                        <if expression="natija==x">
+                                            <then>
+                                                <output expression="&quot;Siz kiritgan javob tog'ri: &quot;&amp;a+b" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <output expression="&quot;Siz kiritgan javob xato. To'g'ri javob:  &quot;&amp;a+b" newline="True"/>
+                                            </else>
+                                        </if>
+                                        <output expression="&quot;Natija: &quot;&amp;a+b" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="amal=&quot;-&quot;">
+                                            <then>
+                                                <assign variable="x" expression="a-b"/>
+                                                <if expression="natija==x">
+                                                    <then>
+                                                        <output expression="&quot;Siz kiritgan javob tog'ri: &quot;&amp;a-b" newline="True"/>
+                                                    </then>
+                                                    <else>
+                                                        <output expression="&quot;Siz kiritgan javob xato. To'g'ri javob:  &quot;&amp;a-b" newline="True"/>
+                                                    </else>
+                                                </if>
+                                                <output expression="&quot;Natija: &quot;&amp;a-b" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <output expression="&quot;Siz mavjud bo'lmagan amalni kiritdingiz!&quot;" newline="True"/>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <output expression="&quot;Dasturni boshidan boshlaymizmi: (yes/no)&quot;" newline="True"/>
+                <input variable="answer"/>
+                <if expression="answer=&quot;no&quot;">
+                    <then>
+                        <output expression="&quot;Dastur tugadi.&quot;" newline="True"/>
+                        <assign variable="answerCheck" expression="False"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-03 02:43:44 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDI6MzY6MzQgQU07MjU0NA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDI6NDM6NDQgQU07MTsyNjUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, k, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonini kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;k sonini kiriting: &quot;" newline="True"/>
+            <input variable="k"/>
+            <if expression="k&gt;n">
+                <then>
+                    <output expression="&quot;k soni n sonidan katta bo'lishi kerak emas. Iltimos qaytadan urinib ko'ring.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="x" expression="0"/>
+                    <while expression="n&gt;=k">
+                        <assign variable="n" expression="n-k"/>
+                        <assign variable="x" expression="x+1"/>
+                    </while>
+                    <output expression="&quot;Natija: &quot;&amp;x&amp;&quot;, &quot;&amp;n&amp;&quot; qoldiq.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

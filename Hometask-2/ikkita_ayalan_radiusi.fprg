@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 05:17:24 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDQ6NDY6MjUgUE07MjU2Mw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDU6MTc6MjQgUE07MTsyNjY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R1, R2, S1, S2, S3, P" type="Integer" array="False" size=""/>
+            <output expression="&quot;R1 ni kiriting: &quot;" newline="True"/>
+            <input variable="R1"/>
+            <output expression="&quot;R2 ni kiriting: &quot;" newline="True"/>
+            <input variable="R2"/>
+            <if expression="R1&gt;R2">
+                <then/>
+                <else>
+                    <while expression="R2&gt;R1">
+                        <output expression="&quot;R1 &quot;&amp;R2&amp;&quot; dan katta bo'lishi kerak: &quot;" newline="True"/>
+                        <input variable="R1"/>
+                    </while>
+                </else>
+            </if>
+            <assign variable="P" expression="3.14"/>
+            <assign variable="S1" expression="P*R1"/>
+            <assign variable="S2" expression="p*R2"/>
+            <assign variable="S3" expression="P*(R1-R2)"/>
+            <output expression="&quot;Aylana yuzasi S1=&quot;&amp;S1&amp;&quot; ga teng. Aylananing yuzasi S2=&quot;&amp;S2&amp;&quot; ga teng. S1 va S2 ning ayirmasi S3=&quot;&amp;S3&amp;&quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

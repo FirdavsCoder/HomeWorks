@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-03 02:35:43 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDI6MTU6MDUgQU07MjUzOQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDM7MDI6MzU6NDMgQU07MTsyNjUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="b&gt;a">
+                <then>
+                    <output expression="&quot;b son a sondan katta bo'lishi kerak emas. Iltimos qaytadan urinib ko'ring.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="n" expression="0"/>
+                    <while expression="a&gt;=b">
+                        <assign variable="a" expression="a-b"/>
+                        <assign variable="n" expression="n+1"/>
+                    </while>
+                    <output expression="n" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

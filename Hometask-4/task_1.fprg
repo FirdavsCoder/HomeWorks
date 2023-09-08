@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 12:13:29 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MTI6MDY6MTMgQU07MjU0NQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MTI6MTM6MjkgQU07MTsyNjU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;4 xonali son kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="Len(ToString(a))&gt;4">
+                <then>
+                    <output expression="&quot;Siz kiritgan son 4 xonali emas. &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Siz kiritgan sonning birinchi xonasidagi son=&quot;&amp;Char(ToString(a), 0)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

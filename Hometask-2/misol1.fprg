@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 06:37:28 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDY6Mjk6MzggUE07MjU3MA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDY6Mzc6MjggUE07MTsyNjc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, t, z" type="Integer" array="False" size=""/>
+            <output expression="&quot;X ni kiriting: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Y ni kiriting: &quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;T ni kiriting: &quot;" newline="True"/>
+            <input variable="t"/>
+            <assign variable="z" expression="x+y*t"/>
+            <output expression="&quot;Z=&quot;&amp;Z" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

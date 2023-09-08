@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 04:35:05 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDQ6MzA6NTMgUE07MjU1Nw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDQ6MzU6MDUgUE07MTsyNjY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="L, P, S, R" type="Integer" array="False" size=""/>
+            <output expression="&quot;Dioraning radiusi R ni kiriting: &quot;" newline="True"/>
+            <input variable="R"/>
+            <assign variable="P" expression="3.14"/>
+            <assign variable="L" expression="2*P*R"/>
+            <assign variable="S" expression="P*(R*R)"/>
+            <output expression="&quot;Dioraning uzunligi L=&quot;&amp;L&amp;&quot; ga teng. Doiraning yuzasi S=&quot;&amp;S&amp;&quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

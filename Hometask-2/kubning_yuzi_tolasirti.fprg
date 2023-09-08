@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 03:59:09 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDM6NTQ6MTYgUE07MjU2MQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDM6NTk6MDkgUE07MTsyNjc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, V, S" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kubning yon tomoni a ni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="V" expression="a*a*a"/>
+            <assign variable="S" expression="6*(a*a)"/>
+            <output expression="&quot;Kubgning hajmi: &quot;&amp;V&amp;&quot; ga teng. Kubning to'la sirti: &quot;&amp;S&amp;&quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

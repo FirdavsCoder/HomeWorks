@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 01:00:47 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjQ7MTI6NTQ6MDcgQU07MjU0Nw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjQ7MDE6MDA6NDcgQU07MTsyNjQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;A sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;C sonni kiriting: &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;b ni c bo'lganimizda bo'linma: &quot;&amp;b/c&amp;&quot; ga teng.&quot;" newline="True"/>
+            <assign variable="d" expression="a*b/c"/>
+            <output expression="&quot;b ni c bo'lib a ga kopaytirganimizdagi ko'paytma natijasi: &quot;&amp;d&amp;&quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

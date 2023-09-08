@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 02:00:59 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDY7MDE6NDc6MTEgQU07MjU0Mw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDY7MDI6MDA6NTkgQU07MjsyNjU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;=0">
+                <then>
+                    <output expression="&quot;For bilan n dan 1 gacha sonlarni chiqarib olamiz: &quot;" newline="True"/>
+                    <for variable="x" start="n" end="1" direction="dec" step="1">
+                        <output expression="x" newline="True"/>
+                    </for>
+                    <output expression="&quot;While bilan n dan 1 gacha bo'lgan sonlarni chiqarib olamiz: &quot;" newline="True"/>
+                    <assign variable="x" expression="0"/>
+                    <while expression="x&lt;n">
+                        <output expression="n-x" newline="True"/>
+                        <assign variable="x" expression="x+1"/>
+                    </while>
+                    <output expression="&quot;Do bilan n dan 1 gacha bo'lgan sonlarni chiqarib olamiz!&quot;" newline="True"/>
+                    <assign variable="x" expression="0"/>
+                    <do expression="x&lt;n">
+                        <output expression="n-x" newline="True"/>
+                        <assign variable="x" expression="x+1"/>
+                    </do>
+                </then>
+                <else>
+                    <output expression="&quot;Siz 0 dan katta son kiritishingiz shart!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

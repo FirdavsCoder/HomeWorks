@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 01:04:01 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MTI6NTk6NDAgQU07MjU1Mw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MDE6MDQ6MDEgQU07MTsyNjQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a%b"/>
+            <if expression="c&gt;5 || c&lt;1">
+                <then>
+                    <output expression="&quot;Siz kiritgan sonlarni bo'lgandagi qoldiq 5 va 1 oraligida emas.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Siz kiritgan sonlarni bo'lgandagi qoldiq=&quot;&amp;c" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

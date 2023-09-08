@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 02:03:45 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MDE6NTIgQU07MjU0MA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDktMDc7MDI6MDM6NDUgQU07MTsyNjUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="k, n, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;k sonini kiriting: &quot;" newline="True"/>
+            <input variable="k"/>
+            <output expression="&quot;n sonini kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="k" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

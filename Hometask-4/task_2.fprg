@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 12:18:28 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MTI6MTQ6NDMgQU07MjU0Nw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjg7MTI6MTg6MjggQU07MTsyNjYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Uch xonali son kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="Len(ToString(a))&gt;3">
+                <then>
+                    <output expression="&quot;Siz kiritgan son uch xonali emas.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Siz kiritgan uch xonali sonning raqamlari yigindisi=&quot;&amp;ToInteger(Char(ToString(a), 0))+ToInteger(Char(ToString(a), 1))+ToInteger(Char(ToString(a), 2))" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

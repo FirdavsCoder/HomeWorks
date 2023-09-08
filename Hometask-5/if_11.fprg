@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 02:06:10 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDE6NTc6MjkgQU07MjU1MA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDI6MDQ6MjEgQU07MTtmaXJkYXZzO0ZJUkRBVlM7MjAyMy0wOC0zMTswMToyNzo1MyBBTTs1MjQ2"/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDI6MDY6MTAgQU07MTsyNjQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b || b&gt;a">
+                <then>
+                    <if expression="a&gt;b">
+                        <then>
+                            <assign variable="b" expression="a"/>
+                        </then>
+                        <else>
+                            <assign variable="a" expression="b"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="a" expression="0"/>
+                    <assign variable="b" expression="0"/>
+                </else>
+            </if>
+            <output expression="&quot;a=&quot;&amp;a&amp;&quot; b=&quot;&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

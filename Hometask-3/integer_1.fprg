@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-26 02:27:19 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDE6NTE6MDEgQU07MjUzOA=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjY7MDI6Mjc6MTkgQU07MjsyNjYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Santimetrni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a/100"/>
+            <output expression="&quot;Natija: &quot;&amp;b&amp;&quot; metr.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

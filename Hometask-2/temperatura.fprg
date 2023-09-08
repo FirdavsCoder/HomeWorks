@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 06:17:35 PM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDU6MTg6MDcgUE07MjU2Mw=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMjM7MDY6MTc6MzUgUE07MjA7MjcyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TF, TC" type="Integer" array="False" size=""/>
+            <output expression="&quot;TF ni kiriting: &quot;" newline="True"/>
+            <input variable="TF"/>
+            <assign variable="TC" expression="(TF-32)*5/9"/>
+            <output expression="&quot;TC=&quot;&amp;TC" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

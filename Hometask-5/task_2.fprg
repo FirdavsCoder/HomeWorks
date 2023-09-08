@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="firdavs"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 04:11:20 AM"/>
+        <attribute name="created" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDQ6MDc6NTMgQU07MjU0NQ=="/>
+        <attribute name="edited" value="ZmlyZGF2cztGSVJEQVZTOzIwMjMtMDgtMzE7MDQ6MTE6MjAgQU07NzsyNjQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masofani kiriting: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Vaqtni kiriting: &quot;" newline="True"/>
+            <input variable="y"/>
+            <assign variable="z" expression="x/y"/>
+            <output expression="&quot;Javob: &quot;&amp;z&amp;&quot; km/h&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

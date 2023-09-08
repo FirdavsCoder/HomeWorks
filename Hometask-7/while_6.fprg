@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Nitro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 02:33:55 PM"/>
+        <attribute name="created" value="Tml0cm87REVTS1RPUC1TSzhJTTRDOzIwMjMtMDgtMzE7MDI6MjQ6MDMgUE07Mjg2NA=="/>
+        <attribute name="edited" value="Tml0cm87REVTS1RPUC1TSzhJTTRDOzIwMjMtMDgtMzE7MDI6MzM6NTUgUE07MTsyOTc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, a, b, result" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <declare name="i" type="Boolean" array="False" size=""/>
+            <assign variable="i" expression="true"/>
+            <assign variable="a" expression="2"/>
+            <assign variable="result" expression="n"/>
+            <while expression="i">
+                <assign variable="b" expression="n-a"/>
+                <if expression="b&gt;1">
+                    <then>
+                        <assign variable="result" expression="result * b"/>
+                        <assign variable="a" expression="a+2"/>
+                    </then>
+                    <else>
+                        <assign variable="i" expression="false"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
